@@ -45,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D2B9F3A2B59A8810033175A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D2B9F362B59A4B90033175A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DC973682B59AD4D0052DAFE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7DC898AD2B5947C7008B7023 /* UserListViewModel.swift */,
+				7D2B9F382B59A4EA0033175A /* UserTableViewCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7DC973692B59AD7B0052DAFE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DEA88A42B5052FE009A28A9 /* UserListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		7DEA88942B5052FE009A28A9 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +89,16 @@
 		7DEA889F2B5052FE009A28A9 /* MVVMBindings */ = {
 			isa = PBXGroup;
 			children = (
+				7D5DB6682B58B61B003E0CF4 /* Observable.swift */,
+				7D2B9F3A2B59A8810033175A /* Models */,
+				7DC973692B59AD7B0052DAFE /* ViewControllers */,
+				7DC973682B59AD4D0052DAFE /* ViewModels */,
 				7DEA88A02B5052FE009A28A9 /* AppDelegate.swift */,
 				7DEA88A22B5052FE009A28A9 /* SceneDelegate.swift */,
-				7D5DB6682B58B61B003E0CF4 /* Observable.swift */,
-				7D2B9F362B59A4B90033175A /* User.swift */,
-				7DC898AD2B5947C7008B7023 /* UserListViewModel.swift */,
-				7DEA88A42B5052FE009A28A9 /* UserListViewController.swift */,
 				7DEA88A62B5052FE009A28A9 /* Main.storyboard */,
 				7DEA88A92B5052FF009A28A9 /* Assets.xcassets */,
 				7DEA88AB2B5052FF009A28A9 /* LaunchScreen.storyboard */,
 				7DEA88AE2B5052FF009A28A9 /* Info.plist */,
-				7D2B9F382B59A4EA0033175A /* UserTableViewCellViewModel.swift */,
 			);
 			path = MVVMBindings;
 			sourceTree = "<group>";
